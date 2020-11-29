@@ -2,6 +2,7 @@
 
 
 ## Introduction
+![image](img/efficientFCN.png)
 We propose a holistically-guided decoder (HGD) for achieving discriminative deep feature
 representations. With the proposed HGD, our EfficientFCN method for semantic segmentation 
 achieves comparable or even better performance than state-of-the-art methods with only 
