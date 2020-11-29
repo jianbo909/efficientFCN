@@ -51,5 +51,16 @@ novel FPN-variant [HGD-FPN](https://github.com/jianbo909/HGD_FPN) for object det
 
 ## Citation
 
+```
+@inproceedings{liu2020efficientfcn,
+  title={EfficientFCN: Holistically-guided Decoding for Semantic Segmentation},
+  author={Liu, Jianbo and He, Junjun and Zhang, Jiawei and Ren, Jimmy S and Li, Hongsheng},
+  booktitle={European Conference on Computer Vision},
+  pages={1--17},
+  year={2020},
+  organization={Springer}
+}
+```
+
 ## Acknowledgement
 Thanks [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)!
