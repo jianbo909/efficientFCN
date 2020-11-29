@@ -12,6 +12,40 @@ novel FPN-variant [HGD-FPN](https://github.com/jianbo909/HGD_FPN) for object det
 
 ## Usage
 
+1. Install pytorch
+  
+   -The code is tested on python3.6 and torch>1.1.0
+   -The code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding).
+
+2. Clone the resposity
+
+   ```shell
+   git clone https://github.com/jianbo909/efficientFCN.git
+   cd efficientFCN
+   python setup.py install
+   ``` 
+3. Dataset
+   -Prepare the datasets by runing the scripts in the scripts folder, for example preparing PASCAL Context dataset:
+
+   ```shell
+   python scripts/prepare_pcontext.py
+   ``` 
+
+4. Training
+
+   -The training scripts for pcontext and ADE20K are in the experiments/segmentation/scripts_train/ folder. For example, the training command for pcontext dataset:
+
+   ```shell
+   ./scripts_train/train_efficientFCN_pcontext.sh
+   ``` 
+
+5. Evaluation
+   --The testing scripts are in the experiments/segmentation/test_scripts folder. For example, the training command for pcontext dataset:
+
+   ```shell
+   ./test_scripts/train_efficientFCN_resnet101_pcontext_MS.sh /path/to/model
+   ``` 
+
 
 ## Citation
 
