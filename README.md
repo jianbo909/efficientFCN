@@ -15,6 +15,7 @@ novel FPN-variant [HGD-FPN](https://github.com/jianbo909/HGD_FPN) for object det
 1. Install pytorch
   
    -The code is tested on python3.6 and torch>1.1.0
+   
    -The code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding).
 
 2. Clone the resposity
